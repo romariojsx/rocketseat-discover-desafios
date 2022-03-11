@@ -1,0 +1,151 @@
+aside {
+  flex-basis: 348px;
+  gap: 30px;
+}
+
+.profile {
+  background-color: #302f3d;
+  border-radius: 20px;
+  height: 292px;
+  padding: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile img {
+  margin: 0 auto 30px auto;
+  border: 2px solid #00ff00;
+  border-radius: 100%;
+}
+
+.profile h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  color: var(--p4-color);
+}
+
+.profile p {
+  color: var(--p4-color);
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+.social-icons {
+  background-color: var(--p2-color);
+  border-radius: 20px;
+  min-height: 348px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: var(--p4-color);
+  padding: 30px 40px;
+  margin-bottom: 30px;
+}
+
+.social-icons ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.social-icons ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.tecnologias {
+  background-color: var(--p2-color);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.tecnologias h4 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--p4-color);
+}
+
+.tecnologias ul {
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tecnologias ul li {
+  background-color: var(--p5-color);
+  color: var(--p3-color);
+  border-radius: 30px;
+  height: 24px;
+  width: 86px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experiencias,
+.educacao {
+  background-color: var(--p2-color);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+
+.experiencias h4,
+.educacao h4 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--p4-color);
+}
+
+.experiencias ul li,
+.educacao ul li {
+  list-style-position: inside;
+  padding-left: 20px;
+  padding-top: 20px;
+  list-style-type: disc;
+  color: var(--p4-color);
+
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.experiencias ul li .fw300,
+.educacao ul li .fw300 {
+  color: var(--p4-color);
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 20px;
+}
+
+.experiencias ul li .fw400,
+.educacao ul li .fw400 {
+  font-weight: 400;
+  padding-left: 20px;
+}
